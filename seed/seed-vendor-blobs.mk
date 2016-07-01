@@ -16,6 +16,9 @@
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
+    vendor/google/seed/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/google/seed/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/google/seed/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/google/seed/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/google/seed/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/google/seed/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \

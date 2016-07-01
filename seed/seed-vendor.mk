@@ -19,6 +19,12 @@ PRODUCT_PACKAGES += \
     TimeService
 
 PRODUCT_PACKAGES += \
+    sensors.bst_l8150_bma253_only \
+    sensors.bst_l8150 \
+    power.seed \
+    keystore.seed
+
+PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
 
