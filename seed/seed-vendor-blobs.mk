@@ -421,11 +421,11 @@ vendor/google/seed/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemo
     vendor/google/seed/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/google/seed/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/google/seed/proprietary/vendor/lib/libccQTI.so:system/vendor/lib/libccQTI.so \
+    vendor/google/seed/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/google/seed/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/google/seed/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/google/seed/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/google/seed/proprietary/vendor/etc/calmodule.conf:system/vendor/etc/calmodule.conf
+    vendor/google/seed/proprietary/vendor/etc/calmodule.cfg:system/vendor/etc/calmodule.cfg
 
 endif
 
