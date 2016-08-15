@@ -27,11 +27,9 @@ vendor/google/seed/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libac
 vendor/google/seed/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
 vendor/google/seed/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
 vendor/google/seed/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
-vendor/google/seed/proprietary/lib/sensors.bst_l8150_bma253_only.so:system/lib/hw/sensors.bst_l8150_bma253_only.so \
-vendor/google/seed/proprietary/lib/sensors.bst_l8150.so:system/lib/hw/sensors.bst_l8150.so \
-vendor/google/seed/proprietary/lib/power.seed.so:system/lib/hw/power.seed.so \
-vendor/google/seed/proprietary//lib/keystore.seed.so:system/lib/hw/keystore.seed.so \
-vendor/google/seed/proprietary/lib/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+vendor/google/seed/proprietary/lib/hw/power.seed.so:system/lib/hw/power.seed.so \
+vendor/google/seed/proprietary//lib/hw/keystore.seed.so:system/lib/hw/keystore.seed.so \
+vendor/google/seed/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
 vendor/google/seed/proprietary/bin/btnvtool:system/bin/btnvtool \
 vendor/google/seed/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
 vendor/google/seed/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
