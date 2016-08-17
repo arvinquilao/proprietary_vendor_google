@@ -32,6 +32,10 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/google/seed/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
     vendor/google/seed/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/google/seed/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/google/seed/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/google/seed/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/google/seed/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/google/seed/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/google/seed/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/google/seed/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
