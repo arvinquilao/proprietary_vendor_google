@@ -19,7 +19,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/google/seed/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/google/seed/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/google/seed/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/google/seed/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/google/seed/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/google/seed/proprietary/bin/netmgrd:system/bin/netmgrd \
@@ -42,8 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/google/seed/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/google/seed/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/google/seed/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/google/seed/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/google/seed/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/google/seed/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/google/seed/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
@@ -148,7 +145,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/google/seed/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/google/seed/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/google/seed/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/google/seed/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/google/seed/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
@@ -205,7 +201,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/seed/proprietary/vendor/lib/libqomx_jpegenc.so:system/vendor/lib/libqomx_jpegenc.so \
     vendor/google/seed/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
-    vendor/google/seed/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/google/seed/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/google/seed/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/google/seed/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -229,8 +224,4 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     libtime_genoff \
-    TimeService \
-    shutdownlistener \
-    qcrilmsgtunnel \
-    qcnvitems \
-    qcrilhook
+    TimeService
